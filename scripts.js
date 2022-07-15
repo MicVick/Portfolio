@@ -59,3 +59,8 @@ var typed = new Typed(".typing", {
     backSpeed: 80,
     loop: true
 });
+
+
+$(document).on("click","#email",function(){
+    alert("Email ID : mihir.hemnani99@gmail.com");
+});
